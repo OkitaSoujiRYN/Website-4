@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "fr">
+
+<head>
+<meta charset= "utf-8">
+<title> AjouterTache </title>
+<link rel= "stylesheet" href = "Styles.css">
+</head>
+
+<center><body>
+<header>
+<a href = "https://temps-action.com/todo-list">
+<img srcset = "TODOLIST.jpg 480w, TODOLIST.jpg 800w"
+     sizes = "(max-width: 1000px) 480px, 800px"
+     src = "TODOLIST.jpg"
+     alt = "TODOLIST">
+</a>
+</header>
+<h2>
+Ajouter votre tâche
+</h2>
+<form action="AjouterTache.html" method="post">
+	<label for="Nom_de_la_tâche"> <b>Nom de la tâche</b> </label>
+	<input type="text" id="Nom_de_la_tâche" placeholder="Nom de la tâche" name="Nom_de_la_tâche" required>
+	
+	<label for="Date"> <b>Date</b> </label>
+	<input type="date" name="date" id = "Date">
+	
+	<label for="Catégorie"> <b>Catégorie</b> </label>
+	<select name="Catégorie" id = "Catégorie">
+					<option value="Tache Personnelle"> Tâche Personnelle</option>
+					<option value="Tache Professionnelle"> Tâche Professionnelle</option>
+					<option value ="Tache Partagées"> Tâche Partagée </option>
+				</select>
+	<input type="submit" value="Ajouter">
+	<input type="reset" value="Annuler">
+</form>
+<footer>
+<a href = "Partie_6.html"> Revenir à l'accueil </a> <br>
+<a href = "https://temps-action.com/todo-list"> Besoind d'aide ! </a>
+</footer>
+</center></body>
+
+</html>

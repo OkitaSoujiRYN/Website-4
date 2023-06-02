@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "fr">
+
+<head>
+<meta charset= "utf-8">
+<title> Connexion </title>
+<link rel= "stylesheet" href = "Styles.css">
+</head>
+
+<center><body>
+<header>
+<img srcset = "Co.png 480w, Co.png 800w"
+     sizes = "(max-width: 1000px) 480px, 800px"
+     src = "Co.png"
+     alt = "Co">
+</header>
+<section>
+<h3>
+Connectez-vous </h3>
+<form action="Partie_6.html" method="post">
+	<label for="email"><b>Adresse mail</b></label>
+	<input type="email" id="email"
+       pattern=".+@gmail\.com" size="30" required>
+	<br>
+	<label for="password"> <b>Mot de passe</b> </label>
+	<input type="password" name="password" id = "password" placeholder="Mot de passe" required>
+	
+	<input type="submit" id='submit' value='LOGIN' >
+</form>
+</section>
+</center></body>
+
+</html>

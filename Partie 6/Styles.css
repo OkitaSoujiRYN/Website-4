@@ -1,0 +1,50 @@
+header{
+    background-image:url("HEADER.png");
+    color:rgb(150, 29, 0);
+}
+footer{
+    background-image:url("HEADER.png");
+    color:rgb(135, 240, 14);
+}
+h1{
+    Text-align:center;
+    color: rgb(0, 0, 171);
+    border: 5px solid black ;
+    width: 590px;
+    font-family: Arial;
+}
+
+h2{
+    Text-align:center;
+    color: rgb(0, 0, 171);
+    border: 5px solid black;
+    width: 590px;
+    font-family:Arial;
+}
+
+section{
+    background-color:rgb(207, 173, 130);
+    width: 600px;
+    font-family:Arial;
+}
+
+li{
+    list-style-type : "📖";
+}
+ul{
+    text-align:left;
+}
+
+footer a{
+    width : 100px ;
+    margin : 0 auto ;
+    color : white ;
+    text-align : center;
+}
+body{
+    background-image:url("FOND_CLASSE.png");
+}
+
+#img{
+    position : center ;
+}
